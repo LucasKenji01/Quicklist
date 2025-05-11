@@ -17,40 +17,19 @@
     <button type="button" class="back__button">🠔 Voltar</button>
     <h2 class="title">Compras da semana</h2>
 
-    <div class="container__form">
-      <input class="text__input" type="text" id="inputAdd" placeholder="Adicione um novo item">
-      <button class="add__button">
+    <form class="container__form">
+      <input class="text__input" type="text" id="addInput" placeholder="Adicione um novo item">
+      <button type="submit" class="add__button" id="addButton">
         Adicionar item
       </button>
-    </div>
+    </form>
 
     <div class="list">
       <ul>
-        <li class="item__lista">
-          <div class="left-side__item">
-            <div class="checkbox">
-              <input type="checkbox" id="chk1" class="checkbox__input" name="chk">
-              <label for="chk1" class="checkbox__text">
-                Pão de forma
-              </label>
-            </div>
-          </div>
-          <button class="delete__button">
-            <img src="./img/button.svg" alt="icon delete">
-          </button>
-        </li>
+
       </ul>
     </div>
 
-    <div class="alert">
-      <div class="left-side__alert">
-        <img src="./img/Icon.svg" alt="icon warning">
-        <p class="text__alert">O item foi removido da lista</p>
-      </div>
-      <button class="close__alert">
-        <img src="./img/delete-small.svg" alt="icon close">
-      </button>
-    </div>
   </main>
 
   <script src="./script.js"></script>
